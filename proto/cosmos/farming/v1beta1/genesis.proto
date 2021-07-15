@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package kogisin.farming.v1beta1;
+package cosmos.farming.v1beta1;
 
 option go_package            = "github.com/kogisin/cosmos-sdk-modules/x/farming/types";
 option (gogoproto.equal_all) = true;
