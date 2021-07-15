@@ -163,10 +163,10 @@ format:
 ###############################################################################
 
 containerProtoVer=latest
-containerProtoImage=tendermintdev/sdk-proto-gen:$(containerProtoVer)
-containerProtoGen=cosmos-sdk-proto-gen-$(containerProtoVer)
-containerProtoGenSwagger=cosmos-sdk-proto-gen-swagger-$(containerProtoVer)
-containerProtoFmt=cosmos-sdk-proto-fmt-$(containerProtoVer)
+containerProtoImage=kogisin/proto-gen:$(containerProtoVer)
+containerProtoGen=proto-gen-$(containerProtoVer)
+# containerProtoGenSwagger=cosmos-sdk-proto-gen-swagger-$(containerProtoVer)
+# containerProtoFmt=cosmos-sdk-proto-fmt-$(containerProtoVer)
 
 proto-all: proto-format proto-lint proto-gen
 
