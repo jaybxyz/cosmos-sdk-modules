@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/tendermint/farming/x/farming/simulation"
+	"github.com/kogisin/cosmos-sdk-modules/x/farming/simulation"
 )
 
 func TestDecodeFarmingStore(t *testing.T) {

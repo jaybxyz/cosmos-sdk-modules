@@ -11,7 +11,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/tx"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/version"
-	"github.com/tendermint/farming/x/farming/types"
+	"github.com/kogisin/cosmos-sdk-modules/x/farming/types"
 )
 
 // GetTxCmd returns a root CLI command handler for all x/farming transaction commands.

@@ -19,12 +19,12 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	distrkeeper "github.com/cosmos/cosmos-sdk/x/distribution/keeper"
 
-	//"github.com/tendermint/farming/x/farming/client/rest"
-	"github.com/tendermint/farming/x/farming/client/cli"
-	"github.com/tendermint/farming/x/farming/keeper"
+	//"github.com/kogisin/cosmos-sdk-modules/x/farming/client/rest"
+	"github.com/kogisin/cosmos-sdk-modules/x/farming/client/cli"
+	"github.com/kogisin/cosmos-sdk-modules/x/farming/keeper"
 
-	//"github.com/tendermint/farming/x/farming/simulation"
-	"github.com/tendermint/farming/x/farming/types"
+	//"github.com/kogisin/cosmos-sdk-modules/x/farming/simulation"
+	"github.com/kogisin/cosmos-sdk-modules/x/farming/types"
 )
 
 var (

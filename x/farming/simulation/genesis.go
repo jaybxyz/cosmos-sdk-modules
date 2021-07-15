@@ -9,7 +9,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/tendermint/farming/x/farming/types"
+	"github.com/kogisin/cosmos-sdk-modules/x/farming/types"
 )
 
 // Simulation parameter constants

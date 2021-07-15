@@ -4,8 +4,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/tendermint/farming/x/farming/keeper"
-	"github.com/tendermint/farming/x/farming/types"
+	"github.com/kogisin/cosmos-sdk-modules/x/farming/keeper"
+	"github.com/kogisin/cosmos-sdk-modules/x/farming/types"
 )
 
 func NewHandler(k keeper.Keeper) sdk.Handler {

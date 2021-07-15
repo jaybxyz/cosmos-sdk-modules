@@ -30,8 +30,8 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	"github.com/cosmos/cosmos-sdk/x/crisis"
 	genutilcli "github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
-	farmingapp "github.com/tendermint/farming/app"
-	farmingparams "github.com/tendermint/farming/app/params"
+	farmingapp "github.com/kogisin/cosmos-sdk-modules/app"
+	farmingparams "github.com/kogisin/cosmos-sdk-modules/app/params"
 )
 
 // NewRootCmd creates a new root command for simd. It is called once in the
@@ -49,8 +49,8 @@ func NewRootCmd() (*cobra.Command, farmingparams.EncodingConfig) {
 		WithViper("") // In simapp, we don't use any prefix for env variables.
 
 	rootCmd := &cobra.Command{
-		Use:   "simd",
-		Short: "simulation app",
+		Use:   "toyd",
+		Short: "Toy app",
 		PersistentPreRunE: func(cmd *cobra.Command, _ []string) error {
 			// set the default command outputs
 			cmd.SetOut(cmd.OutOrStdout())

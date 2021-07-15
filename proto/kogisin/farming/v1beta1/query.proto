@@ -1,5 +1,6 @@
 syntax = "proto3";
-package tendermint.farming.v1beta1;
+
+package kogisin.farming.v1beta1;
 
 import "cosmos/farming/v1beta1/farming.proto";
 import "cosmos/base/query/v1beta1/pagination.proto";
@@ -8,7 +9,7 @@ import "google/protobuf/any.proto";
 import "google/api/annotations.proto";
 import "cosmos_proto/cosmos.proto";
 
-option go_package = "github.com/tendermint/farming/x/farming/types";
+option go_package = "github.com/kogisin/cosmos-sdk-modules/x/farming/types";
 
 // Query defines the gRPC query service for the farming module.
 service Query {

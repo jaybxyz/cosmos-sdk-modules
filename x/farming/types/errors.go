@@ -15,6 +15,6 @@ var (
 	ErrEmptyEpochAmount          = sdkerrors.Register(ModuleName, 8, "epoch amount must not be empty")
 	ErrEmptyStakingCoinWeights   = sdkerrors.Register(ModuleName, 9, "staking coin weights must not be empty")
 	ErrStakingNotExists          = sdkerrors.Register(ModuleName, 10, "staking not exists")
-	ErrRewardNotExists           = sdkerrors.Register(ModuleName, 10, "reward not exists")
-	ErrInsufficientStakingAmount = sdkerrors.Register(ModuleName, 11, "insufficient staking amount")
+	ErrRewardNotExists           = sdkerrors.Register(ModuleName, 11, "reward not exists")
+	ErrInsufficientStakingAmount = sdkerrors.Register(ModuleName, 12, "insufficient staking amount")
 )

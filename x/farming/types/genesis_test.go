@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/kogisin/cosmos-sdk-modules/x/farming/types"
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/farming/x/farming/types"
 )
 
 func TestValidateGenesis(t *testing.T) {

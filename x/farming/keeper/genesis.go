@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/tendermint/farming/x/farming/types"
+	"github.com/kogisin/cosmos-sdk-modules/x/farming/types"
 )
 
 // InitGenesis initializes the farming module's state from a given genesis state.

@@ -4,7 +4,7 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/tendermint/farming/x/farming/types"
+	"github.com/kogisin/cosmos-sdk-modules/x/farming/types"
 )
 
 // GetQueryCmd returns a root CLI command handler for all x/farming query commands.

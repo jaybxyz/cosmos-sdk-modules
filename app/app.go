@@ -77,12 +77,12 @@ import (
 	upgradekeeper "github.com/cosmos/cosmos-sdk/x/upgrade/keeper"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 	"github.com/gorilla/mux"
+	farmingparams "github.com/kogisin/cosmos-sdk-modules/app/params"
+	"github.com/kogisin/cosmos-sdk-modules/x/farming"
+	farmingkeeper "github.com/kogisin/cosmos-sdk-modules/x/farming/keeper"
+	farmingtypes "github.com/kogisin/cosmos-sdk-modules/x/farming/types"
 	"github.com/rakyll/statik/fs"
 	"github.com/spf13/cast"
-	farmingparams "github.com/tendermint/farming/app/params"
-	"github.com/tendermint/farming/x/farming"
-	farmingkeeper "github.com/tendermint/farming/x/farming/keeper"
-	farmingtypes "github.com/tendermint/farming/x/farming/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/libs/log"
 	tmos "github.com/tendermint/tendermint/libs/os"
@@ -90,7 +90,7 @@ import (
 	dbm "github.com/tendermint/tm-db"
 
 	// unnamed import of statik for swagger UI support
-	_ "github.com/tendermint/farming/client/docs/statik"
+	_ "github.com/kogisin/cosmos-sdk-modules/client/docs/statik"
 )
 
 const appName = "FarmingApp"

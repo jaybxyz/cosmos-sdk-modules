@@ -5,11 +5,11 @@ import (
 	"time"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	farmingapp "github.com/kogisin/cosmos-sdk-modules/app"
+	"github.com/kogisin/cosmos-sdk-modules/x/farming"
+	"github.com/kogisin/cosmos-sdk-modules/x/farming/keeper"
+	"github.com/kogisin/cosmos-sdk-modules/x/farming/types"
 	"github.com/stretchr/testify/require"
-	farmingapp "github.com/tendermint/farming/app"
-	"github.com/tendermint/farming/x/farming"
-	"github.com/tendermint/farming/x/farming/keeper"
-	"github.com/tendermint/farming/x/farming/types"
 
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 )

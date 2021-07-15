@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package tendermint.farming.v1beta1;
+package kogisin.farming.v1beta1;
 
-option go_package            = "github.com/tendermint/farming/x/farming/types";
+option go_package            = "github.com/kogisin/cosmos-sdk-modules/x/farming/types";
 option (gogoproto.equal_all) = true;
 
 import "google/protobuf/any.proto";

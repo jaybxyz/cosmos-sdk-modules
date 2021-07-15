@@ -1,4 +1,4 @@
-module github.com/tendermint/farming
+module github.com/kogisin/cosmos-sdk-modules
 
 go 1.16
 
